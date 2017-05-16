@@ -1,5 +1,5 @@
 var $item = $('.carousel .item');
-var $wHeight = $(window).height()*0.6;
+var $wHeight = $(window).height()*0.5;
 $item.eq(0).addClass('active');
 $item.height($wHeight);
 $item.addClass('full-screen');
